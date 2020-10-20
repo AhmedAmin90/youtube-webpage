@@ -5,7 +5,6 @@ nav {
   justify-content: space-between;
 }
 
-
 /* First div  */
 .logo {
   margin-left: 10px;
@@ -21,54 +20,59 @@ nav {
 }
 
 .logo img {
-  
   margin-left: 20px;
   width: 100px;
-  height:30px;
+  height: 30px;
 }
 
-
 /* second div */
-.search-bar{
+.search-bar {
   display: flex;
   width: 60%;
   align-items: center;
-  
 }
-#main-search-bar{
+#main-search-bar {
   width: 70%;
   height: 35px;
-  border: solid 0.5px #CCC;
+  border: solid 0.5px #ccc;
   outline: none;
   font-size: 15px;
-  color: #CCC;
+  color: #ccc;
   /* margin-left: -60px; */
 }
 
-.search-bar button{
+.search-bar button {
   width: 60px;
   height: 35px;
-  border: solid 0.5px #CCC;
+  border: solid 0.5px #ccc;
   border-left-style: none;
   outline: none;
 }
 
 .search-bar button .fas {
-  color: #333
+  color: #333;
 }
 
 /* Third  div */
 
-.icons{
+.icons {
   display: flex;
   width: 12%;
   justify-content: space-between;
   align-items: center;
-
- 
 }
 
 .icons .fas {
   color: #7f7f7f;
   font-size: 20px;
+}
+
+.container {
+  display: flex;
+}
+
+/* Video info */
+.video-info {
+  display: flex;
+  flex-direction: column;
 }
