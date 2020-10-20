@@ -1,3 +1,74 @@
 nav {
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
+  justify-content: space-between;
+}
+
+
+/* First div  */
+.logo {
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+  width: 25%;
+  height: 50px;
+}
+
+.logo i {
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+.logo img {
+  
+  margin-left: 20px;
+  width: 100px;
+  height:30px;
+}
+
+
+/* second div */
+.search-bar{
+  display: flex;
+  width: 50%;
+  align-items: center;
+  
+}
+#main-search-bar{
+  width: 80%;
+  height: 35px;
+  border: solid 0.5px #CCC;
+  outline: none;
+  font-size: 15px;
+  color: #CCC;
+  margin-left: -60px;
+}
+
+.search-bar button{
+  width: 60px;
+  height: 35px;
+  border: solid 0.5px #CCC;
+  border-left-style: none;
+  outline: none;
+}
+
+.search-bar button .fas {
+  color: #333
+}
+
+/* Third  div */
+
+.icons{
+  display: flex;
+  width: 12%;
+  justify-content: space-between;
+  align-items: center;
+
+ 
+}
+
+.icons .fas {
+  color: #7f7f7f;
+  font-size: 20px;
 }
