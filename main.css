@@ -75,4 +75,92 @@ nav {
 .video-info {
   display: flex;
   flex-direction: column;
+ 
 }
+
+.title h1{
+  font-size: 25px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.sub-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.name-of-channel{
+  display: flex;
+  flex-direction: column;
+}
+
+.options{
+  display: flex;
+  align-items: center;
+}
+
+.options .fa-user-circle {
+  font-size: 50px;
+  margin: 15px 5px 0 5px;
+  color: #689F39;
+}
+
+.name-of-channel h3{
+  font-size: 15px;
+  color: #333333;
+}
+
+.buttons button:first-of-type {
+background-color: #FF0000;
+color: white;
+outline: none;
+width: 90px;
+height: 24px;
+font-size: 12px;
+border: none;
+border-radius: 3px;
+
+}
+
+.buttons span {
+  margin-left: 2px;
+}
+
+
+.views {
+  display: flex;
+  flex-direction: column;
+}
+
+.views h2{
+  margin-bottom: -15px;
+  color: #666666;
+}
+
+.views .line-div {
+  background-color: blue;
+position: relative;
+top: 29px;
+right: 10px;
+  height: 2px;
+  width: 154px;
+}
+
+.buttons .number-of-sub{
+margin-left: -10px;
+width: 35px;
+height: 24px;
+border: 1px solid #7f7f7f;
+border-left-style: none;
+outline: none;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  
+ 
+}
+
