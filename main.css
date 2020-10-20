@@ -1,3 +1,11 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
 nav {
   padding-left: 30px;
   padding-right: 30px;
@@ -69,8 +77,21 @@ nav {
 
 .container {
   display: flex;
+  width: 100%;
 }
 
+.card {
+  background-color: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px #ddd;
+}
+
+.video-section {
+  padding-right: 10px;
+  width: 1280px;
+}
 /* Video info */
 .video-info {
   display: flex;
@@ -136,7 +157,7 @@ nav {
 }
 
 .views .line-div {
-  background-color: blue;
+  background-color: rgb(22, 122, 198);
   position: relative;
   top: 29px;
   right: 10px;
@@ -158,4 +179,58 @@ nav {
   width: 100%;
   height: 1px;
   background-color: #e1e1e1;
+}
+
+.opinion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 0 5px;
+  color: #7f7f7f;
+}
+
+.opinion span {
+  margin-left: 5px;
+}
+
+.opinion .share {
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+  font-family: sans-serif;
+}
+
+.opinion .share span {
+  font-family: sans-serif;
+}
+
+.opinion .rating {
+  display: flex;
+  justify-content: space-between;
+  width: 125px;
+}
+
+.opinion .rating i {
+  font-size: 20px;
+}
+
+.opinion .rating span {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.desc-more {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  border-style: none;
+  background-color: transparent;
+  color: #7f7f7f;
+}
+
+.sidebar {
+  width: 500px;
+  background-color: red;
 }
