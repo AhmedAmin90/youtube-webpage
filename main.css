@@ -230,7 +230,81 @@ nav {
   color: #7f7f7f;
 }
 
+
+
+/* Start on sidebar section */
 .sidebar {
   width: 500px;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  box-shadow: -1px -1px 1px #ddd ;
+  padding: 10px;
+}
+
+.up-next-auto-play{
+  display: flex;
+  width: 100%;
+}
+
+.next{
+  width: 60%;
+}
+
+.auto-play{
+  align-items: center;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5px;
+}
+
+.auto-play h5{
+  color: gray;
+}
+
+.auto-play i{
+  font-size: 15px;
+}
+
+.auto-play .fa-info-circle{
+  color: gray;
+}
+
+.auto-play .fa-toggle-on{
+  color: #167AC6;
+  font-size: 25px;
+}
+.sidebar-videos{
+  display: flex;
+  margin-top: 5px;
+  
+  
+}
+
+.preview{
+  margin-right: 10px;
+}
+
+.preview-description h4, p {
+  margin: 0;
+  padding-right: 15px;
+}
+
+.preview-description h4 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  
+  font-weight: 550;
+}
+
+.preview-description p {
+  color: gray;
+  font-size: 12px;
+ 
+}
+
+.small{
+  font-size: 12px;
+  font-weight: 550;
 }
