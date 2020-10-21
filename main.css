@@ -6,6 +6,12 @@ body {
   background-color: #f1f1f1;
 }
 
+button:hover,
+a:hover,
+i:hover {
+  cursor: pointer;
+}
+
 nav {
   padding-left: 30px;
   padding-right: 30px;
