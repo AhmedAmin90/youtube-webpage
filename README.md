@@ -20,11 +20,11 @@
 
 👤 **Ahmed Amin**
 
-- GitHub: [@githubhandle](https://github.com/AhmedAmin90)
+- GitHub: [@AhmedAmin90](https://github.com/AhmedAmin90)
 
 👤 **Antony Otero**
 
-- GitHub: [@githubhandle](https://github.com/AntonyOtero)
+- GitHub: [@AntonyOtero](https://github.com/AntonyOtero)
 
 ## 🤝 Contributing
 
