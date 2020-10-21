@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0;
   background-color: #f1f1f1;
 }
 
@@ -10,6 +11,13 @@ button:hover,
 a:hover,
 i:hover {
   cursor: pointer;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: white;
+  box-shadow: 1px 0 1px #ddd;
 }
 
 nav {
